@@ -17,6 +17,7 @@ a {
     color: #000;
 }
 
+/* Navigation Bar */
 .header {
     background-color:#ffffff;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -64,6 +65,8 @@ a {
     font-size: 2em;
     padding: 10px 20px;
 }
+
+/* Hamburger Menu for Nav Bar Responsiveness*/
 
 .header .menu {
     clear:both;
@@ -131,6 +134,8 @@ a {
     top:0;
 }
 
+/* Media Query for Navigation Bar Responsiveness*/
+
 @media (min-width:48em) {
 
     .header li{
@@ -165,6 +170,8 @@ a {
     font-size: 100px;
 }
 
+/* Container for About Us */
+
 .container { 
     color: #17103a;
     border: 5px double  black;
@@ -198,6 +205,8 @@ a {
     font-size: 100px;
 
 }
+
+/* Container for Index File*/
 .main-content {
     background-color: rgb(248, 248, 250);
     flex-grow: 1;
@@ -212,6 +221,7 @@ a {
     font-family: sans-serif;
 }
 
+/* User Form for Email Address and Message*/
 .user-form {
     background-color: #eff7f6;
     border-radius: 10px;
@@ -231,6 +241,8 @@ label {
 .user-message {
     width: 50%
 }
+
+/* Grid for images on index file*/
 
 .image-grid {
     --gap: 16px;
@@ -252,6 +264,8 @@ label {
     object-fit: cover;
 }
 
+/* Grid to have Image and Text for the Upcoming Events Section*/
+
 .event-grid {
     --gap: 16px;
     --num-cols: 2;
@@ -271,6 +285,9 @@ label {
     object-fit: cover;
 }
 
+
+/*Media Query to make Images Responsive*/
+
 @media screen and (max-width:1024px) {
     .image-grid {
         --num-cols: 2;
@@ -278,6 +295,8 @@ label {
     }
     
 }
+
+/* Media Query to make text responsive */
 
 @media screen and (max-width:768px) {
     .main-section {
@@ -294,6 +313,7 @@ label {
     
 }
 
+/* Button to submit form*/
 
 .button {
     background-color: #3a7ca5;
@@ -308,6 +328,8 @@ label {
     cursor: pointer;
   }
 
+
+  /* Footer panels and copyright */
  footer {
     margin-top: 15px;
   }

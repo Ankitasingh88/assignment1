@@ -10,7 +10,7 @@ body {
     margin: 0;
     min-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #bbb;
+    background-color: #fdf8e1;
 }
 
 a {
@@ -47,6 +47,15 @@ a {
 
 .header ul a:hover {
     background-color: #ddd;
+}
+
+.header ul a.active {
+    background-color: #4a6fa5;
+    color: white;
+}
+
+.header ul a.active:hover {
+    background-color: #3c5a8a;
 }
 
 .header .logo {
@@ -157,7 +166,7 @@ a {
 }
 
 .container { 
-    color: #2711eb;
+    color: #17103a;
     border: 5px double  black;
     justify-content: last baseline;
     text-align: center;
@@ -196,7 +205,7 @@ a {
 }
 
 .user-msg {
-    background-color: #3a7ca5;
+    background-color: #bbdef0;
     border-radius: 10px;
     padding: 16px; 
     font-size: 20px;
@@ -204,7 +213,7 @@ a {
 }
 
 .user-form {
-    background-color: rgb(148, 159, 168);
+    background-color: #eff7f6;
     border-radius: 10px;
     padding: 16px;
     font: 20px sans-serif;

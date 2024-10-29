@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.contact-section {
+    background-image: url(index_banner.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 100px;
+
+}
+
+
+/* User Form for Email Address and Message*/
+.user-form {
+    background-color: #eff7f6;
+    border-radius: 10px;
+    padding: 16px;
+    font: 20px sans-serif;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+}
+
+.fieldsets {
+    border-radius: 10px;
+}
+
+.user-message {
+    width: 50%
+}
+
+
+/* Button to submit form*/
+
+.button {
+    background-color: #3a7ca5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+  
